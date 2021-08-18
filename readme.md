@@ -32,6 +32,12 @@ Compile ts files to js
 tsc
 ```
 
+Watch ts files to js
+
+```zsh
+tsc --watch 
+```
+
 Init tsconfig.json
 
 ```zsh
