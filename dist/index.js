@@ -32,3 +32,26 @@ const user = {
     id: 1,
     name: 'John'
 };
+let cid = 1;
+let customerId = cid;
+function addNum(x, y) {
+    return x + y;
+}
+function log(message) {
+    console.log(message);
+}
+const user1 = {
+    id: 1,
+    name: 'John'
+};
+const add = (x, y) => x + y;
+const sub = (x, y) => x - y;
+class Person {
+    constructor(id, name) {
+        this.id = id;
+        this.name = name;
+    }
+}
+const nover = new Person(1, 'Nover Lawel');
+const mike = new Person(2, 'Mike Jordan');
+console.log(nover, mike);
