@@ -54,4 +54,4 @@ class Person {
 }
 const nover = new Person(1, 'Nover Lawel');
 const mike = new Person(2, 'Mike Jordan');
-console.log(nover, mike);
+console.log(nover.id);

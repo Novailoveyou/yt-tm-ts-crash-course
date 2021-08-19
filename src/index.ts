@@ -86,7 +86,7 @@ const sub: MathFunc = (x: number, y: number): number => x - y
 
 // Classes
 class Person {
-  id: number
+  private id: number
   name: string
 
   constructor(id: number, name: string) {
@@ -98,4 +98,4 @@ class Person {
 const nover = new Person(1, 'Nover Lawel')
 const mike = new Person(2, 'Mike Jordan')
 
-console.log(nover, mike)
+console.log(nover.id)
