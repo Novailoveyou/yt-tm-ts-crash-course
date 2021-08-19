@@ -57,4 +57,11 @@ class Person {
 }
 const nover = new Person(1, 'Nover Lawel');
 const mike = new Person(2, 'Mike Jordan');
-console.log(nover.register());
+class Employee extends Person {
+    constructor(id, name, position) {
+        super(id, name);
+        this.position = position;
+    }
+}
+const emp = new Employee(3, 'Shawn', 'Developer');
+console.log(emp.register());

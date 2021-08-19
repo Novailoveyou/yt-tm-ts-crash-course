@@ -108,4 +108,16 @@ class Person implements PersonInterface {
 const nover = new Person(1, 'Nover Lawel')
 const mike = new Person(2, 'Mike Jordan')
 
-console.log(nover.register())
+// Subclasses
+class Employee extends Person {
+  position: string
+
+  constructor(id: number, name: string, position: string) {
+    super(id, name)
+    this.position = position
+  }
+}
+
+const emp = new Employee(3, 'Shawn', 'Developer')
+
+console.log(emp.register())
