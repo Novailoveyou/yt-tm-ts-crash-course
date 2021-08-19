@@ -84,8 +84,14 @@ interface MathFunc {
 const add: MathFunc = (x: number, y: number): number => x + y
 const sub: MathFunc = (x: number, y: number): number => x - y
 
+interface PersonInterface {
+  id: number
+  name: string
+  register(): string
+}
+
 // Classes
-class Person {
+class Person implements PersonInterface {
   id: number
   name: string
 
