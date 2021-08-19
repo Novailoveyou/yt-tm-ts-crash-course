@@ -86,16 +86,20 @@ const sub: MathFunc = (x: number, y: number): number => x - y
 
 // Classes
 class Person {
-  private id: number
+  id: number
   name: string
 
   constructor(id: number, name: string) {
     this.id = id
     this.name = name
   }
+
+  register() {
+    return `${this.name} is now registered`
+  }
 }
 
 const nover = new Person(1, 'Nover Lawel')
 const mike = new Person(2, 'Mike Jordan')
 
-console.log(nover.id)
+console.log(nover.register())
