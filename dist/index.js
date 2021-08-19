@@ -1,3 +1,5 @@
 "use strict";
 let id = 5;
-console.log('ID:', id);
+let company = 'Novailoveyou';
+let isPublished = true;
+let x = 'Hello';

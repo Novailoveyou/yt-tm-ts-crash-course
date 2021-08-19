@@ -1,3 +1,5 @@
+// Basic Types
 let id: number = 5
-
-console.log('ID:', id)
+let company: string = 'Novailoveyou'
+let isPublished: boolean = true
+let x: any = 'Hello'
