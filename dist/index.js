@@ -69,4 +69,4 @@ function getArray(items) {
 }
 let numArray = getArray([1, 2, 3, 4]);
 let strArray = getArray(['brad', 'nover', 'john']);
-numArray.push('hello');
+numArray.push(1);
